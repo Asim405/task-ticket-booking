@@ -5,7 +5,7 @@ const path = require('path');
 
 const DB_HOST = process.env.DB_HOST || 'localhost';
 const DB_USER = process.env.DB_USER || 'root';
-const DB_PASSWORD = process.env.DB_PASSWORD || '';
+const DB_PASSWORD = process.env.DB_PASSWORD || 'asim8454';
 const DB_NAME = process.env.DB_NAME || 'ticket_db';
 const DB_PORT = process.env.DB_PORT ? Number(process.env.DB_PORT) : 3306;
 const PORT = process.env.PORT ? Number(process.env.PORT) : 3001;
